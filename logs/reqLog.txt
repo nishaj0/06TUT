@@ -170,3 +170,5 @@
 2023 04 23	11:04:25 	 9121d180-b80b-45f7-aa60-34631b7ac85f	GET	undefined	/employees/1
 2023 04 23	11:04:30 	 64851851-a5ef-499b-a3b4-614e4a4f8914	GET	undefined	/employees/2
 2023 04 23	11:55:25 	 81a82309-002c-415d-b4f0-e1b96c4f6798	GET	undefined	/employees?letter=s
+2023 04 23	14:30:12 	 64c3ec62-9386-4edd-a28e-11dcb2ecdbc7	POST	undefined	/register
+2023 04 23	14:30:49 	 b6eabbcf-05f5-46f3-a9bf-cfd424a72df2	POST	undefined	/register
