@@ -172,3 +172,6 @@
 2023 04 23	11:55:25 	 81a82309-002c-415d-b4f0-e1b96c4f6798	GET	undefined	/employees?letter=s
 2023 04 23	14:30:12 	 64c3ec62-9386-4edd-a28e-11dcb2ecdbc7	POST	undefined	/register
 2023 04 23	14:30:49 	 b6eabbcf-05f5-46f3-a9bf-cfd424a72df2	POST	undefined	/register
+2023 04 23	14:53:23 	 d1d4c1a7-ed7e-430d-aac5-06b1924db0d7	GET	undefined	/auth
+2023 04 23	14:53:42 	 b865d12a-8c29-49ff-8c8d-74710f01da15	POST	undefined	/auth
+2023 04 23	14:54:19 	 7069b353-a58c-4b54-91a7-e4bfcd6ed5c7	POST	undefined	/auth
