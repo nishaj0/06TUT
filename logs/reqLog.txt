@@ -199,3 +199,5 @@
 2023 04 23	15:14:00 	 7debf6e4-2a01-4d79-ba16-82aeaa2c4d4e	POST	undefined	/register
 2023 04 23	15:14:04 	 662a7fcd-ed7f-426d-9879-7e136c55b8a7	POST	undefined	/register
 2023 04 23	15:14:07 	 dabb6c40-7971-4361-b88c-7d0f460ab04c	POST	undefined	/register
+2023 04 23	21:06:54 	 a70cc01d-68b7-4592-86af-041037da598d	PUT	undefined	/employees
+2023 04 23	21:25:41 	 d96b4b7c-e4eb-4e3f-bbcf-89830914a7a0	GET	undefined	/students
