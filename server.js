@@ -32,6 +32,7 @@ app.use("/", require("./router/root"));
 app.use("/register", require("./router/register"));
 app.use("/auth", require("./router/auth"));
 app.use("/refresh", require("./router/refresh"));
+app.use("/logout", require("./router/logout"));
 
 app.use(verifyJWT)
 app.use("/employees", require("./router/api/employees"));
