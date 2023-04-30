@@ -6,7 +6,6 @@ const userDB = {
 };
 
 const jwt = require("jsonwebtoken");
-require("dotenv").config();
 
 const handleRefreshToken = (req, res) => {
    const cookies = req.cookies;
@@ -30,7 +29,7 @@ const handleRefreshToken = (req, res) => {
             {
                userInfo: {
                   username: foundUser.username,
-                  roles: roles
+                  roles: roles,
                },
             },
             process.env.ACCESS_TOKEN_SECRET,
