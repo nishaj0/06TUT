@@ -19,6 +19,7 @@ const handleLogin = async (req, res) => {
    }
    const foundUser = userDB.users.find((person) => person.username === user);
    if (!foundUser) return res.sendStatus(401); //Unauthorized
+
    // evaluate password
    const match = await bcrypt.compare(pwd, foundUser.password);
    if (match) {
@@ -28,7 +29,7 @@ const handleLogin = async (req, res) => {
          {
             userInfo: {
                username: foundUser.username,
-               roles: roles
+               roles: roles,
             },
          },
          process.env.ACCESS_TOKEN_SECRET,
@@ -52,7 +53,7 @@ const handleLogin = async (req, res) => {
       res.cookie("jwt", refreshToken, {
          httpOnly: true,
          sameSite: "None",
-         secure: true,
+         /*secure: true,*/
          maxAge: 24 * 60 * 60 * 1000,
       });
       res.json({ accessToken });
